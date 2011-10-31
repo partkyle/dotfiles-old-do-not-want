@@ -4,7 +4,7 @@ colorscheme jellybeans+
 
 if has("mouse")
   set mouse=a
-  set ttymouse=xterm
+  set ttymouse=xterm2
 endif
 
 set cursorline
