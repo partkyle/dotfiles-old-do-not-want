@@ -1,0 +1,17 @@
+syntax enable
+set t_Co=256
+colorscheme grb256
+
+set mouse=a
+
+map <F2> <Esc><leader>n
+map <F5> <Esc>:Gstatus<CR><C-w>J
+
+nmap <leader><leader> :CommandT<CR>
+nmap <leader>f :Ack 
+nmap <leader>gs :Gstatus<CR><C-w>J
+nmap <leader>gd :Gdiff<CR>
+nmap <leader>qw :wq<CR>
+nmap <leader>qq :q!<CR>
+nmap <leader>ws :split<CR>
+nmap <leader>wv :vsplit<CR>
