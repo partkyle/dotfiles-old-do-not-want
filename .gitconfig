@@ -29,7 +29,7 @@
   b = branch
 
 [format]
-  pretty=format:%C(yellow)%h%Creset -%C(magenta)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+  pretty=format:%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%ar) %C(magenta)<%an>%Creset
 
 [merge]
   tool = vimdiff
