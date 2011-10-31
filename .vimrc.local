@@ -2,7 +2,17 @@ syntax enable
 set t_Co=256
 colorscheme jellybeans+
 
-set mouse=a
+if has("mouse")
+  set mouse=a
+  set ttymouse=xterm
+endif
+
+" This is totally awesome - remap jj to escape in insert mode.  You'll never
+" type jj anyway, so it's great!
+inoremap jj <Esc>
+
+" Swap ; and :  Convenient.
+nnoremap ; :
 
 map <F2> <Esc><leader>n
 map <F5> <Esc>:Gstatus<CR><C-w>J
