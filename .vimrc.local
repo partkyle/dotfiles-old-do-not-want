@@ -13,5 +13,6 @@ nmap <leader>gs :Gstatus<CR><C-w>J
 nmap <leader>gd :Gdiff<CR>
 nmap <leader>qw :wq<CR>
 nmap <leader>qq :q!<CR>
+nmap <leader>qa :qa!<CR>
 nmap <leader>ws :split<CR>
 nmap <leader>wv :vsplit<CR>
