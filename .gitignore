@@ -1,0 +1,26 @@
+.DS_Store
+*.swp
+
+# package managers
+/.npm/
+/.rvm/
+
+# config files
+.Xauthority
+
+# personal files
+/Applications/
+/Code/
+/Desktop/
+/Documents/
+/Downloads/
+/Dropbox/
+/Library/
+/Movies/
+/Music/
+/NetBeansProjects/
+/Pictures/
+/Public/
+/sand/
+/work/
+/workspace/
