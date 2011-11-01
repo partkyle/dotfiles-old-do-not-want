@@ -1,6 +1,7 @@
 syntax enable
 set t_Co=256
-colorscheme jellybeans+
+set bg=light
+colorscheme solarized
 
 if has("mouse")
   set mouse=a
