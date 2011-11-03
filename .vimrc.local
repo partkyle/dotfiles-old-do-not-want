@@ -1,6 +1,6 @@
 syntax enable
 set t_Co=256
-set bg=dark
+set bg=light
 colorscheme solarized
 
 if has("mouse")
