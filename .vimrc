@@ -1,1 +1,0 @@
-/Users/kp/.vim/vimrc
