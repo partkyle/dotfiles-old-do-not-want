@@ -19,15 +19,20 @@ inoremap jj <Esc>
 " Swap ; and :  Convenient.
 nnoremap ; :
 
-map <F2> <Esc><leader>n
-map <F5> <Esc>:Gstatus<CR><C-w>J
-
+" Navigation
 nmap <leader><leader> :CommandT<CR>
+nmap <leader>v :NERDTreeFind<CR>
 nmap <leader>f :Ack 
+
+" Git
 nmap <leader>gs :Gstatus<CR><C-w>J
 nmap <leader>gd :Gdiff<CR>
+
+" Quit
 nmap <leader>qw :wq<CR>
 nmap <leader>qq :q!<CR>
 nmap <leader>qa :qa!<CR>
+
+" Window
 nmap <leader>ws :split<CR>
 nmap <leader>wv :vsplit<CR>
