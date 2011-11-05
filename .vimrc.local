@@ -1,7 +1,9 @@
 syntax enable
 set t_Co=256
-set bg=light
+let g:solarized_menu=0
+set background=light
 colorscheme solarized
+
 
 if has("mouse")
   set mouse=a
