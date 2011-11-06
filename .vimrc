@@ -323,6 +323,20 @@ imap <c-c> <esc>
 
 command! InsertTime :normal a<c-r>=strftime('%F %H:%M:%S.0 %z')<cr>
 
+if has("mouse")
+  set mouse=a
+  set ttymouse=xterm2
+endif
+
+" This is totally awesome - remap jj to escape in insert mode.  You'll never
+" type jj anyway, so it's great!
+inoremap jj <Esc>
+
+nmap <leader><leader> :CommandT<CR>
+nmap <leader>f :Ack 
+nmap <leader>gs :Gstatus<CR><C-w>J
+nmap <leader>gd :Gdiff<CR>
+
 map <Left> :echo "no!"<cr>
 map <Right> :echo "no!"<cr>
 map <Up> :echo "no!"<cr>
