@@ -149,3 +149,9 @@ inoremap jj <Esc>
 nmap <leader>f :Ack 
 nmap <leader>gs :Gstatus<CR><C-w>J
 nmap <leader>gd :Gdiff<CR>
+
+" Better mappings split movement
+nmap <C-J> <C-w>j
+nmap <C-K> <C-w>k
+nmap <C-H> <C-w>h
+nmap <C-L> <C-w>l
