@@ -16,3 +16,9 @@
 [submodule ".vim/bundle/ack.vim"]
 	path = .vim/bundle/ack.vim
 	url = https://github.com/vim-scripts/ack.vim.git
+[submodule ".vim/bundle/php-doc--su"]
+	path = .vim/bundle/php-doc--su
+	url = https://github.com/vim-scripts/php-doc--su.git
+[submodule ".vim/bundle/ZenCoding"]
+	path = .vim/bundle/ZenCoding
+	url = https://github.com/vim-scripts/ZenCoding.vim.git
