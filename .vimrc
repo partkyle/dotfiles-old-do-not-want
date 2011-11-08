@@ -40,6 +40,7 @@ set noequalalways
 " Command-T configuration
 let g:CommandTMaxHeight=20
 map <Leader><Leader> :CommandT<CR>
+map <Leader>. :CommandTBuffer<CR>
 
 " Remember last location in file
 if has("autocmd")
