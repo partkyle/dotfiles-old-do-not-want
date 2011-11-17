@@ -93,3 +93,8 @@
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+	ignore = untracked
+[submodule ".vim/bundle/vim-twig"]
+	path = .vim/bundle/vim-twig
+	url = git://github.com/beyondwords/vim-twig.git
+	ignore = untracked
