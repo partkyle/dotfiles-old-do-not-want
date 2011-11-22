@@ -106,3 +106,7 @@
 	path = .oh-my-zsh
 	url = git@github.com:partkyle/oh-my-zsh.git
 	ignore = untracked
+[submodule ".vim/bundle/gundo.vim"]
+	path = .vim/bundle/gundo.vim
+	url = http://github.com/sjl/gundo.vim.git
+	ignore = untracked
