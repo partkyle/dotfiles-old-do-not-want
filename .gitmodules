@@ -106,3 +106,15 @@
 	path = .oh-my-zsh
 	url = git@github.com:partkyle/oh-my-zsh.git
 	ignore = untracked
+[submodule ".vim/bundle/gundo.vim"]
+	path = .vim/bundle/gundo.vim
+	url = http://github.com/sjl/gundo.vim.git
+	ignore = untracked
+[submodule ".vim/bundle/Color-Sampler-Pack"]
+	path = .vim/bundle/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+	ignore = untracked
+[submodule ".vim/bundle/AutoClose"]
+	path = .vim/bundle/AutoClose
+	url = https://github.com/vim-scripts/AutoClose.git
+	ignore = untracked

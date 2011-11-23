@@ -37,6 +37,9 @@ set laststatus=2
 " This is likely a bludgeon to solve some other issue, but it works
 set noequalalways
 
+" remap the closing shortcut to something a little easier
+map ZX ZQ
+
 " NERDTree configuration
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
@@ -125,6 +128,12 @@ color solarized
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
+" Directory for undo tracking
+set undodir=~/.vim/undo
+set undofile
+set undolevels=1000  "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+
 " Turn off jslint errors by default
 let g:JSLintHighlightErrorLine = 0
 
@@ -164,3 +173,6 @@ nmap <C-J> <C-w>j
 nmap <C-K> <C-w>k
 nmap <C-H> <C-w>h
 nmap <C-L> <C-w>l
+
+" C based mappings
+map <C-S-f> <Esc>:Ack ""<Left>
