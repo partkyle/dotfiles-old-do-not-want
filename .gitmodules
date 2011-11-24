@@ -110,3 +110,6 @@
 	path = .vim/bundle/gundo.vim
 	url = http://github.com/sjl/gundo.vim.git
 	ignore = untracked
+[submodule ".vim/bundle/Color-Sampler-Pack"]
+	path = .vim/bundle/Color-Sampler-Pack
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
