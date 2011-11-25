@@ -128,6 +128,12 @@ color solarized
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 
+" Directory for undo tracking
+set undodir=~/.vim/undo
+set undofile
+set undolevels=1000  "maximum number of changes that can be undone
+set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+
 " Turn off jslint errors by default
 let g:JSLintHighlightErrorLine = 0
 
