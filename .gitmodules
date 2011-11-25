@@ -113,3 +113,8 @@
 [submodule ".vim/bundle/Color-Sampler-Pack"]
 	path = .vim/bundle/Color-Sampler-Pack
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+	ignore = untracked
+[submodule ".vim/bundle/AutoClose"]
+	path = .vim/bundle/AutoClose
+	url = https://github.com/vim-scripts/AutoClose.git
+	ignore = untracked
