@@ -1,6 +1,12 @@
 .DS_Store
 *.swp
 
+# vim settings
+.vim/backup/*
+!.vim/backup/.gitkeep
+.vim/undo/*
+!.vim/undo/.gitkeep
+
 # package managers
 /.npm/
 /.rvm/
