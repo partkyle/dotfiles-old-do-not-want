@@ -164,7 +164,7 @@ endif
 inoremap jj <Esc>
 
 " My custom commands
-nmap <leader>f :Ack 
+nmap <leader>f :Ack ""<Left>
 nmap <leader>gs :Gstatus<CR><C-w>J
 nmap <leader>gd :Gdiff<CR>
 
