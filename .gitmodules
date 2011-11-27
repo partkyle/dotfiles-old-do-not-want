@@ -116,5 +116,5 @@
 	ignore = untracked
 [submodule ".vim/bundle/AutoClose"]
 	path = .vim/bundle/AutoClose
-	url = https://github.com/vim-scripts/AutoClose.git
+	url = git@github.com:partkyle/AutoClose.git
 	ignore = untracked
