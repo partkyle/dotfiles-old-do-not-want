@@ -94,10 +94,6 @@
 	path = .vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
 	ignore = untracked
-[submodule ".vim/bundle/vim-twig"]
-	path = .vim/bundle/vim-twig
-	url = git://github.com/beyondwords/vim-twig.git
-	ignore = untracked
 [submodule ".vim/bundle/vim-less"]
 	path = .vim/bundle/vim-less
 	url = git://github.com/groenewege/vim-less.git
@@ -117,4 +113,8 @@
 [submodule ".vim/bundle/AutoClose"]
 	path = .vim/bundle/AutoClose
 	url = git@github.com:partkyle/AutoClose.git
+	ignore = untracked
+[submodule ".vim/bundle/Jinja.vim"]
+	path = .vim/bundle/Jinja.vim
+	url = https://github.com/rdunklau/Jinja.vim.git
 	ignore = untracked
