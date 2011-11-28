@@ -26,9 +26,9 @@ COMPLETION_WAITING_DOTS="true"
 # This section is OS specific (I don't want to load ssh-agent on OS X)
 platform="unknown"
 unamestr=`uname`
-if [[ "$unamestr" == "Linux" ]]; then
+if [[ "$unamestr" = "Linux" ]]; then
   plugins=(git ssh-agent)
-elif [[ "$unamestr" == "Darwin" ]]; then
+elif [[ "$unamestr" = "Darwin" ]]; then
   plugins=(git)
 else
   plugins=(git)
