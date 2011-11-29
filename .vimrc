@@ -176,6 +176,7 @@ nmap <C-J> <C-w>j
 nmap <C-K> <C-w>k
 nmap <C-H> <C-w>h
 nmap <C-L> <C-w>l
+nmap <Space> <C-w>w
 
 " C based mappings
 map <C-S-f> <Esc>:Ack ""<Left>
