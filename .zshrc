@@ -29,7 +29,7 @@ unamestr=`uname`
 if [[ "$unamestr" = "Linux" ]]; then
   plugins=(git ssh-agent)
 elif [[ "$unamestr" = "Darwin" ]]; then
-  plugins=(git)
+  plugins=(git brew)
 else
   plugins=(git)
 fi
