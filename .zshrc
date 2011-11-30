@@ -27,7 +27,7 @@ COMPLETION_WAITING_DOTS="true"
 platform="unknown"
 unamestr=`uname`
 if [[ "$unamestr" = "Linux" ]]; then
-  plugins=(git ssh-agent)
+  plugins=(git)
 elif [[ "$unamestr" = "Darwin" ]]; then
   plugins=(git brew)
 else
