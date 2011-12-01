@@ -29,7 +29,7 @@ unamestr=`uname`
 if [[ "$unamestr" = "Linux" ]]; then
   plugins=(git)
 elif [[ "$unamestr" = "Darwin" ]]; then
-  plugins=(git brew)
+  plugins=(git brew npm rbenv)
 else
   plugins=(git)
 fi
@@ -41,3 +41,6 @@ export PATH=/usr/local/bin:$PATH
 
 # rvm setup
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+#rbenv setup
+[[ -s "$HOME/.rbenv" ]] && eval "$(rbenv init -)"
