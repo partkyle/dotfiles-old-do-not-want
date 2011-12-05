@@ -176,3 +176,4 @@ nmap <S-Space> <C-w>W
 
 " C based mappings
 map <C-S-f> <Esc>:Ack ""<Left>
+map <D-f> <Esc>:Ack ""<Left>
