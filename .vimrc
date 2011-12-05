@@ -157,10 +157,6 @@ if has("mouse")
   set ttymouse=xterm2
 endif
 
-if has("gui")
-  set guifont=Bitstream\ Vera\ Sans\ Mono:h14
-endif
-
 " This is totally awesome - remap jj to escape in insert mode.  You'll never
 " type jj anyway, so it's great!
 inoremap jj <Esc>
