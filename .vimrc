@@ -151,8 +151,6 @@ runtime! macros/matchit.vim
 set showcmd
 
 set cursorline
-" Always show tab bar
-set showtabline=2
 
 if has("mouse")
   set mouse=a
