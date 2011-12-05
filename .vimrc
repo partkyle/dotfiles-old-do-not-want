@@ -124,6 +124,7 @@ set modeline
 set modelines=10
 
 " Default color scheme
+set bg=dark
 let g:solarized_diffmode="high"
 color solarized
 
