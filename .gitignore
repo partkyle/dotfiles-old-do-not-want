@@ -1,14 +1,24 @@
 .DS_Store
 *.swp
 
+/.Trash/
+
+/.dropbox/
+/.pow
+
+/.ssh/
+
 # vim settings
+.viminfo
 .vim/backup/*
 !.vim/backup/.gitkeep
 .vim/undo/*
 !.vim/undo/.gitkeep
 
 # package managers
+/.gem/
 /.npm/
+/.rbenv/
 /.rvm/
 
 # config files
@@ -16,9 +26,14 @@
 
 # history files
 .bash_history
-.zsh_history
+.irb-history
 .zcompdump
 .zcompdump.zwc
+.zsh_history
+.zsh-update
+
+# misc
+.CFUserTextEncoding
 
 # personal files
 /Applications/
@@ -30,10 +45,11 @@
 /Library/
 /Movies/
 /Music/
+/.netbeans/
 /NetBeansProjects/
 /Pictures/
 /Public/
 /sand/
 /work/
 /workspace/
-/.netbeans/
+/VirtualBox VMs
