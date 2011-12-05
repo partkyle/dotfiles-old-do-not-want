@@ -14,6 +14,12 @@
 # config files
 .Xauthority
 
+# history files
+.bash_history
+.zsh_history
+.zcompdump
+.zcompdump.zwc
+
 # personal files
 /Applications/
 /Code/
