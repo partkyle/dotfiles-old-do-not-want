@@ -27,6 +27,7 @@
   fa = fetch --all
   pom = push origin master
   b = branch
+  undo = !git add . && git reset --hard
 
 [format]
   pretty=format:%C(yellow)%h%Creset -%C(bold blue)%d%Creset %s %Cgreen(%ar) %C(magenta)<%an>%Creset
