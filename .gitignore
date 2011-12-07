@@ -1,2 +1,6 @@
 vim/.netrwhist
 vim/.VimballRecord
+vim/backup/*
+!vim/backup/.gitkeep
+vim/undo/*
+!vim/undo/.gitkeep
