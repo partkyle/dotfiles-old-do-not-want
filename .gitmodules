@@ -1,87 +1,116 @@
 [submodule "vim/bundle/vim-unimpaired"]
 	path = vim/bundle/vim-unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
+  url = git://github.com/tpope/vim-unimpaired.git
+  ignore = untracked
 [submodule "vim/bundle/syntastic"]
 	path = vim/bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+  ignore = untracked
 [submodule "vim/bundle/snipmate.vim"]
 	path = vim/bundle/snipmate.vim
 	url = git@github.com:partkyle/snipmate.vim.git
+  ignore = untracked
 [submodule "vim/bundle/Color-Sampler-Pack"]
 	path = vim/bundle/Color-Sampler-Pack
 	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+  ignore = untracked
 [submodule "vim/bundle/vim-fugitive"]
 	path = vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+  ignore = untracked
 [submodule "vim/bundle/yaml.vim"]
 	path = vim/bundle/yaml.vim
 	url = git://github.com/vim-scripts/yaml.vim.git
+  ignore = untracked
 [submodule "vim/bundle/nerdcommenter"]
 	path = vim/bundle/nerdcommenter
 	url = git://github.com/ddollar/nerdcommenter.git
+  ignore = untracked
 [submodule "vim/bundle/searchfold"]
 	path = vim/bundle/searchfold
 	url = git://github.com/vim-scripts/searchfold.vim.git
+  ignore = untracked
 [submodule "vim/bundle/vim-coffee-script"]
 	path = vim/bundle/vim-coffee-script
 	url = git://github.com/kchmck/vim-coffee-script.git
+  ignore = untracked
 [submodule "vim/bundle/vim-indent-object"]
 	path = vim/bundle/vim-indent-object
 	url = git://github.com/michaeljsmith/vim-indent-object.git
+  ignore = untracked
 [submodule "vim/bundle/gundo.vim"]
 	path = vim/bundle/gundo.vim
 	url = http://github.com/sjl/gundo.vim.git
+  ignore = untracked
 [submodule "vim/bundle/nerdtree"]
 	path = vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+  ignore = untracked
 [submodule "vim/bundle/vim-irblack"]
 	path = vim/bundle/vim-irblack
 	url = git://github.com/wgibbs/vim-irblack.git
+  ignore = untracked
 [submodule "vim/bundle/ack.vim"]
 	path = vim/bundle/ack.vim
 	url = https://github.com/vim-scripts/ack.vim.git
+  ignore = untracked
 [submodule "vim/bundle/vim-surround"]
 	path = vim/bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+  ignore = untracked
 [submodule "vim/bundle/vim-colors-solarized"]
 	path = vim/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+  ignore = untracked
 [submodule "vim/bundle/ZoomWin"]
 	path = vim/bundle/ZoomWin
 	url = git://github.com/vim-scripts/ZoomWin.git
+  ignore = untracked
 [submodule "vim/bundle/gist-vim"]
 	path = vim/bundle/gist-vim
 	url = git://github.com/mattn/gist-vim.git
+  ignore = untracked
 [submodule "vim/bundle/ZenCoding"]
 	path = vim/bundle/ZenCoding
 	url = https://github.com/vim-scripts/ZenCoding.vim.git
+  ignore = untracked
 [submodule "vim/bundle/AutoClose"]
 	path = vim/bundle/AutoClose
 	url = git@github.com:partkyle/AutoClose.git
+  ignore = untracked
 [submodule "vim/bundle/vim-less"]
 	path = vim/bundle/vim-less
 	url = git://github.com/groenewege/vim-less.git
+  ignore = untracked
 [submodule "vim/bundle/vim-vividchalk"]
 	path = vim/bundle/vim-vividchalk
 	url = git://github.com/tpope/vim-vividchalk.git
+  ignore = untracked
 [submodule "vim/bundle/Command-T"]
 	path = vim/bundle/Command-T
 	url = https://github.com/vim-scripts/Command-T.git
+  ignore = untracked
 [submodule "vim/bundle/jade"]
 	path = vim/bundle/jade
 	url = https://github.com/vim-scripts/jade.vim
+  ignore = untracked
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+  ignore = untracked
 [submodule "vim/bundle/vim-align"]
 	path = vim/bundle/vim-align
 	url = git://github.com/tsaleh/vim-align.git
+  ignore = untracked
 [submodule "vim/bundle/vim-javascript"]
 	path = vim/bundle/vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
+  ignore = untracked
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = git://github.com/tpope/vim-markdown.git
+  ignore = untracked
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git@github.com:partkyle/oh-my-zsh.git
+  ignore = untracked
