@@ -29,7 +29,7 @@ unamestr=`uname`
 if [[ "$unamestr" = "Linux" ]]; then
   plugins=(git)
 elif [[ "$unamestr" = "Darwin" ]]; then
-  plugins=(git brew npm rvm ruby rails rails3 bundler)
+  plugins=(git brew npm rvm)
 else
   plugins=(git)
 fi
