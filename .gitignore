@@ -1,6 +1,56 @@
-vim/.netrwhist
-vim/.VimballRecord
-vim/backup/*
-!vim/backup/.gitkeep
-vim/undo/*
-!vim/undo/.gitkeep
+.DS_Store
+*.swp
+
+/.Trash/
+
+/.dropbox/
+/.pow
+
+/.ssh/
+
+# vim settings
+.viminfo
+.vim/backup/*
+!.vim/backup/.gitkeep
+.vim/undo/*
+!.vim/undo/.gitkeep
+
+# package managers
+/.gem/
+/.npm/
+/.rbenv/
+/.rvm/
+
+# config files
+.Xauthority
+
+# history files
+.bash_history
+.irb-history
+.zcompdump
+.zcompdump.zwc
+.zsh_history
+.zsh-update
+
+# misc
+.CFUserTextEncoding
+
+# personal files
+/Applications/
+/Code/
+/Desktop/
+/Documents/
+/Downloads/
+/Dropbox/
+/Library/
+/Movies/
+/Music/
+/.netbeans/
+/NetBeansProjects/
+/Pictures/
+/Public/
+/sand/
+/tmp/
+/work/
+/workspace/
+/VirtualBox VMs
